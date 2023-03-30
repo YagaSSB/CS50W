@@ -1,0 +1,167 @@
+/* Background color and basic font styling for the page */
+body {
+    background-color: #202124;
+    color: white;
+    font-family: Arial;
+}
+
+header {
+        text-align: right;
+        margin: 10px;
+        padding: 10px;
+    }
+
+main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* Different styling specifically for the advanced search page */
+#advanced {
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 17px;
+    text-align: left;
+}
+
+/* Styling for headers */
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #F28B82;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+/* General stylings for inputs */
+input {
+    color: white;
+    border: solid 1px;
+    border-color: #303134;
+    height: 40px;
+}
+
+input[type="text"] {
+    background-color: #202124;
+}
+
+/* Styling for the navigation links at the header of the page */
+.navlink {
+    font-size: 15px;
+    color: white;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+}
+
+#brand {
+    font-size: 25px;
+    color: white;
+    margin: 3px;
+    float: left;
+    text-align: left;
+} 
+
+/* Styling for the seperation line at the advanced search page */
+.separation {
+    margin-right: -30px;
+    margin-left: -47px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    height: 2px;
+    background-color: #303134;
+    border: none;
+}
+
+/* Styling for the search text field at the regular search and image search pages */
+#searchbox {
+    width: auto;
+}
+
+.searchfield {
+    font-size: 20px;
+    border-radius: 25px;
+    height: 30px;
+    width: 35%;
+    padding-left: 20px;
+}
+
+.searchfield:hover, .searchfield:focus {
+    background-color: #303134;
+    border-color: #303134;
+    outline: 0;
+}
+
+/* Styling for the submit button at the regular search and image search pages */
+#submit {
+    margin: 30px;
+    padding: 10px;
+}
+
+.submit{
+    padding: 5px;
+    margin: 5px;
+    width: 10%;
+    border-radius: 10px;
+    background-color: #303134;
+}
+
+.submit:hover {
+    border-color: white;
+}
+
+/* Styling for the table at the advanced search page */
+td {
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.wide-td {
+    width: 500px;
+}
+
+/* Styling for the advanced search text inputs */
+.advancedfield {
+    font-size: 14px;
+    height: 18px;
+    padding: 4px;
+    width: 100%;
+}
+
+.advancedfield:focus {
+    outline: none;
+    border-color: #8AB4F8;
+}
+
+
+/* Styling for the submit button at the advanced search page */
+.advancedsubmit {
+    border-radius: 2px;
+    margin: 30px;
+    margin-left: 5px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #8AB4F8;
+    border-color: #8AB4F8;
+    color: #202124;
+    height: 25px;
+    font-weight: bold;
+}
+
+.advancedsubmit:hover {
+    background-color: #AECBFA;
+}
+
+
+
+
